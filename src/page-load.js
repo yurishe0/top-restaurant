@@ -12,14 +12,15 @@ export const pageLoad = () => {
   const navbar = newElement("div", "", "", "", "navbar");
   const about = newElement("div", "", "", "", "about-item", "about-us");
   const historyContainer = newElement("div", "", "", "", "about-item", "history-container")
-  const aboutImageContainer = newElement("div", "", "", "", "about-item", "aboutImageContainer");
+  const aboutImageContainer = newElement("div", "", "", "", "about-item", "about-image-container");
+  const orderContainer = newElement("div", "", "", "", "order-container");
 
   const aboutImage = newElement("img", "", "src", "https://arquitecturaviva.com/assets/uploads/obras/43429/av_imagen_vertical.jpeg?h=1410ee69", "");
 
   const pizzarioBig = newElement("h1", "PIZZARIO", "", "", "");
   const pizzarioSmall = newElement("h2", "Pizzario", "", "", "");
   const aboutUs = newElement("h3", "ABOUT US", "", "", "");
-  const history = newElement("h3", "history", "", "", "");
+  const history = newElement("h3", "HISTORY", "", "", "");
 
   const paragraph1 = newElement("p", "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui beatae nulla, minus debitis sint veniam. Doloremque, praesentium ea? Repudiandae nesciunt numquam culpa rerum iure neque repellendus doloribus eum quia se.", "", "", "");
   const paragraph2 = newElement("p", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt architecto, est dignissimos dolorum eos accusantium.", "", "", "");
@@ -57,4 +58,6 @@ export const pageLoad = () => {
 
   mainContainer.appendChild(contentContainer);
   content.appendChild(mainContainer);
+
+  content.appendChild(orderContainer);
 };
