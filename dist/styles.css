@@ -41,7 +41,7 @@ h2 {
     margin: 0px auto 0px 20px;
 }
 
-h3 {
+.about-item h3 {
     font-size: 32px;
     font-family: 'Roboto';
     margin: 0 30px;
@@ -62,6 +62,11 @@ h3 {
     letter-spacing: 3px;
     margin: 20px;
     cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .logo {
@@ -98,4 +103,71 @@ h3 {
 
 .about-image-container img {
     width: 450px;
+}
+
+.order-container {
+    background-color: rgb(20, 19, 19);
+    margin: 100px 0px;
+}
+
+.order {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.order-container h3 {
+    color: rgb(139, 26, 26);
+    font-size: 42px;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.order p {
+    text-align: center;
+    font-size: 20px;
+    margin: 4px;
+    font-style: italic;
+}
+
+.order-button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.order-button {
+    padding: 15px 30px;
+    border: 1px solid rgb(139, 26, 26);
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(139, 26, 26);
+    cursor: pointer;
+    transition: 100ms ease-in;
+}
+
+.order-button:hover {
+    background-color: rgb(139, 26, 26);
+    color: rgb(20, 19, 19);
+}
+
+.footer-container {
+    background-color:rgb(90, 3, 3);
+    height: 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-container a {
+    cursor: pointer;
+    font-style: italic;
 }
