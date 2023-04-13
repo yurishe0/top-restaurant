@@ -1,3 +1,5 @@
-import { pageLoad } from './page-load.js';
+import { mainPage } from "./main-page.js";
+import { about } from "./about.js";
 
-pageLoad();
+mainPage();
+about();
