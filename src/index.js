@@ -1,5 +1,8 @@
 import { mainPage } from "./main-page.js";
-import { about } from "./about.js";
+import { about } from "./sites/about.js";
+import { menu } from "./sites/menu.js";
+import { location } from "./sites/location.js";
+import { contact } from "./sites/contact.js";
 
 mainPage();
 
@@ -25,6 +28,7 @@ function changePage(page) {
             about();
             break;
         case "MENU":
+            menu();
             break;
         case "LOCATION":
             break;
