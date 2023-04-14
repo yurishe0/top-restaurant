@@ -19,19 +19,16 @@ navbarLinks.forEach(link => {
 })
 
 function changePage(page) {
+    clearPage();
     switch(page) {
         case "ABOUT US":
-            clearPage();
             about();
             break;
         case "MENU":
-            clearPage();
             break;
         case "LOCATION":
-            clearPage();
             break;
         case "CONTACT":
-            clearPage();
             break;
     }
 }
