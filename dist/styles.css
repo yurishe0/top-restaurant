@@ -171,3 +171,39 @@ a:hover {
     cursor: pointer;
     font-style: italic;
 }
+
+
+/*         */
+
+.menu-container {
+    width: min(1000px, 90%);
+    margin: 40px auto;
+
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 15px;
+}
+
+.menu-item {
+    background-color: rgb(32, 31, 31);
+    border-radius: 16px;
+    cursor: pointer;
+}
+.menu-item img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.menu-item p {
+    text-align: right;
+    padding: 0px 10px;
+}
