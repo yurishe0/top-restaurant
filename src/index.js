@@ -26,6 +26,7 @@ function changePage(page) {
             menu();
             break;
         case "LOCATION":
+            location();
             break;
         case "CONTACT":
             break;
