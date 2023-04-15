@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0px;
 
@@ -73,6 +77,10 @@ a:hover {
     height: 96px;
 }
 
+.main-container {
+ overflow: hidden;
+}
+
 .content-container {
     width: min(1000px, 90%);
     margin: 60px auto;
@@ -81,6 +89,7 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+
 
 .about-item {
     padding: 30px;
@@ -207,4 +216,31 @@ a:hover {
 .menu-item p {
     text-align: right;
     padding: 0px 10px;
+}
+
+
+/* LOCATION */
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    width: 100%;
+    background-color: rgb(20, 19, 19);
+    overflow: hidden;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.text-container h3 {
+    font-size: 36px;
+    color: rgb(139, 26, 26);
+    font-family: Roboto;
+}
+
+.text-container p {
+    font-size: 16px;
+    margin: -8px;
 }
