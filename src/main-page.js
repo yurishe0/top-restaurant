@@ -13,7 +13,6 @@ export const mainPage = () => {
     const link1 = newElement("a", "ABOUT US", "", "", "");
     const link2 = newElement("a", "MENU", "", "", "");
     const link3 = newElement("a", "LOCATION", "", "", "");
-    const link4 = newElement("a", "CONTACT", "", "", "");
     const link5 = newElement("a", "Privacy policy", "", "", "");
     const link6 = newElement("a", "Terms of use", "", "", "");
     const link7 = newElement("a", "Customer support", "", "", "");
@@ -26,7 +25,6 @@ export const mainPage = () => {
     navbar.appendChild(link1);
     navbar.appendChild(link2);
     navbar.appendChild(link3);
-    navbar.appendChild(link4);
     content.appendChild(navbar);
 
     content.appendChild(mainContent);

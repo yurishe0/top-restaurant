@@ -2,7 +2,6 @@ import { mainPage } from "./main-page.js";
 import { about } from "./sites/about.js";
 import { menu } from "./sites/menu.js";
 import { location } from "./sites/location.js";
-import { contact } from "./sites/contact.js";
 
 mainPage();
 
