@@ -173,7 +173,7 @@ a:hover {
 }
 
 
-/*         */
+/*   MENU   */
 
 .menu-container {
     width: min(1000px, 90%);
@@ -191,7 +191,8 @@ a:hover {
     cursor: pointer;
 }
 .menu-item img {
-    max-width: 300px;
+    width: 300px;
+    max-height: 200px;
     border-radius: 8px;
 }
 
