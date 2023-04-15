@@ -6,13 +6,8 @@ import { contact } from "./sites/contact.js";
 
 mainPage();
 
-// const link1 = document.querySelector('#about-us');
-// link1.addEventListener('click', () => {
-    //     console.log('a');
-    // });
-
-    const mainContent = document.querySelector('.main-content');
-    const navbarLinks = document.querySelectorAll('.navbar a');
+const mainContent = document.querySelector('.main-content');
+const navbarLinks = document.querySelectorAll('.navbar a');
 
 navbarLinks.forEach(link => {
     link.addEventListener('click', () => {
